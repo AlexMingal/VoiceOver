@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 480px;
+  min-height: 100vw;
+
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 760px;
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: rgb(216, 213, 221);
+}
+
+.actor {
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  width: 40vw;
+  min-width: 400px;
+  font-size: 14px;
+  padding-left: 20px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid rgb(107, 107, 107);
+
+}
+
+.actor img {
+    border: 1px solid rgb(206, 205, 219);
+    border-radius: 5px;
+    height: 70%;
+    align-self: center;
+}
+
+.actor__lang-name {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  /* border: 1px solid red; */
+}
+
+
+.actor__name {
+  padding: 15px 10%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.actor__lang {
+  display: flex;
+  /* border: 1px solid red; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  align-self: baseline;
+  padding: 5px 10%;
+}
+
+.actor__s {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  padding: 5px 10%;
+
+}
+
+
+.actor__sample { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.play__icon {
+  width: 20px;
+  height: 20px;
+  background-image: url("./img/png/play.png");
+  background-size: contain;
+  border: 0;
+  background-color: white;
+} 
