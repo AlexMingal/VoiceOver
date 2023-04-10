@@ -29,6 +29,8 @@ body {
 .actor {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   height: 130px;
   width: 40vw;
   min-width: 400px;
@@ -37,12 +39,13 @@ body {
   margin: 10px;
   background-color: white;
   border-radius: 8px;
-  border: 1px solid rgb(107, 107, 107);
+  border: 1px solid rgb(104, 71, 201);
+
 
 }
 
 .actor img {
-    border: 1px solid rgb(206, 205, 219);
+    border: 1px solid rgb(183, 145, 248);
     border-radius: 5px;
     height: 70%;
     align-self: center;
@@ -51,13 +54,16 @@ body {
 .actor__lang-name {
   display: flex;
   flex-direction: column;
-  width: 160px;
+  justify-content: space-around;
+  gap: 0.7vw;
+  padding-left: 0.5vw;
+  width: 150px;
   /* border: 1px solid red; */
 }
 
 
 .actor__name {
-  padding: 15px 10%;
+  /* padding-left: 0.5vw; */
   font-family: 'Noto Sans', sans-serif;
   font-size: 22px;
   font-weight: 700;
@@ -65,29 +71,28 @@ body {
 
 .actor__lang {
   display: flex;
-  /* border: 1px solid red; */
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: 300;
   font-size: 14px;
-  align-self: baseline;
-  padding: 5px 10%;
 }
 
 .actor__s {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
-  padding: 5px 10%;
 
 }
 
-
-.actor__sample { 
+.actor__sample {
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* border: 1px solid; */
 }
 
+.actor__player {
+  display: flex;
+}
 
 .play__icon {
   width: 20px;
@@ -97,3 +102,29 @@ body {
   border: 0;
   background-color: white;
 } 
+
+.actor__order-btn {
+  margin-right: 1.5vw;
+  width: 100px;
+  height: 40px;
+  background-image: linear-gradient(135deg, rgb(93, 205, 255), rgb(181, 112, 255));
+  border-radius: 7px;
+  border: 0;
+  transition: linear 0.2s;
+
+}
+
+.actor__order-btn:hover {
+  background-image: linear-gradient(5deg, rgb(93, 205, 255), rgb(181, 112, 255));
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25), 0 1px 10px rgba(0,0,0,0.22);
+}
+
+.sample__duration {
+  padding-left: 0.4vw;
+  padding-top: 0.1vw;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color:  rgb(100, 123, 133);
+
+}
