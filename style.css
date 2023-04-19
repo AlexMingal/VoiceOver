@@ -122,9 +122,9 @@ body {
 
 .sample__duration {
   padding-left: 0.4vw;
-  padding-top: 0.1vw;
+  padding-top: 0.23vw;
   font-family: monospace;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color:  rgb(100, 123, 133);
 
 }

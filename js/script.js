@@ -6,7 +6,6 @@ let audioCurTime = document.querySelector('.sample__duration');
 const audio = new Audio();
 // let audioCurTime;
 
-
 playBtn.addEventListener('click', ()=> {
   audio.addEventListener("timeupdate", updateProgress);
   if (!isPlay) {playAudio()}
@@ -31,7 +30,6 @@ function toggleBtnIcon() {
   if (isPlay == false) { playBtn.style.backgroundImage = "url('./img/png/play.png')"}
   if (isPlay == true) {  playBtn.style.backgroundImage = "url('./img/png/pause.png')"}
 }
-
 
 function updateProgress(e) {
   const { duration, currentTime } = e.target;
