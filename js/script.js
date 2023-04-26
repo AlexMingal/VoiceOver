@@ -12,7 +12,6 @@ playBtn.addEventListener('click', ()=> {
   else {pauseAudio()}
   });
 
-
 function playAudio() {
   audio.src = '../sounds/James.mp3';
   audio.currentTime = 0;
@@ -20,6 +19,7 @@ function playAudio() {
   isPlay = true;
   toggleBtnIcon();
 }
+
 
 function pauseAudio() {
   audio.pause();
