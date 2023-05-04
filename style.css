@@ -79,7 +79,6 @@ body {
 .actor__s {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 14px;
-
 }
 
 .actor__sample {
@@ -111,7 +110,6 @@ body {
   border-radius: 7px;
   border: 0;
   transition: linear 0.2s;
-
 }
 
 .actor__order-btn:hover {
