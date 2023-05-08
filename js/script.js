@@ -44,4 +44,3 @@ function updateProgress(e) {
   audioCurTime.textContent = `${zeros}${seconds}`;
   if (currentTime == duration) { pauseAudio(); };
 }
-
