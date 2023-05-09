@@ -20,7 +20,6 @@ function playAudio() {
   toggleBtnIcon();
 }
 
-
 function pauseAudio() {
   audio.pause();
   isPlay = false;
