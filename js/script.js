@@ -20,11 +20,13 @@ function playAudio() {
   toggleBtnIcon();
 }
 
+
 function pauseAudio() {
   audio.pause();
   isPlay = false;
   toggleBtnIcon(); }
 
+  
 function toggleBtnIcon() {
   if (isPlay == false) { playBtn.style.backgroundImage = "url('./img/png/play.png')"}
   if (isPlay == true) {  playBtn.style.backgroundImage = "url('./img/png/pause.png')"}
